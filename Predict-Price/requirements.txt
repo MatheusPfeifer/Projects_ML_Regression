@@ -1,4 +1,8 @@
 catboost==0.26
-streamlit==0.82.0
-pycaret==2.3.1
-pycaret-nightly==2.3.1.dev1623631231
+pandas @ file:///C:/ci/pandas_1602083338010/work
+pandas-profiling==3.0.0
+pycaret==2.2
+scikit-image==0.17.2
+scikit-learn==0.23.2
+scikit-plot==0.3.7
+streamlit==0.83.0

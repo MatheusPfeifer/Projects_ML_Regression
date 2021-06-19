@@ -6,7 +6,7 @@ from pycaret.regression import *
 model = load_model('Predict-Price/model/my-modelo-final')
 
 # carregando uma amostra dos dados.
-dataset = pd.read_csv('data/dataset.csv') 
+dataset = pd.read_csv('Predict-Price/data/dataset.csv') 
 
 # título
 st.title("Data App - Predição de Valores de Alugueis")

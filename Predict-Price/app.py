@@ -3,7 +3,7 @@ import streamlit as st
 from pycaret.regression import *
 
 # loading the trained model.
-model = load_model('model/my-modelo-final')
+model = load_model('model/my-modelo-final.pkl')
 
 # carregando uma amostra dos dados.
 dataset = pd.read_csv('data/dataset.csv') 
